@@ -1,51 +1,51 @@
-,userID,user,genre_match
-0,0,Ada Grossman,Classical
-1,1,Charlie Hayes,Classical
-2,2,Timothy Mullins,Pop
-3,3,Bruce Hyde,Classical
-4,4,Kelli Gauthier,Pop
-5,5,Michael Mcgee,Classical
-6,6,Kim Remington,Rock
-7,7,Irma Moon,Metal
-8,8,John Beltran,Rock
-9,9,Raymond Adami,Pop
-10,10,Heather Roush,Rock
-11,11,Jacqueline Felton,Rock
-12,12,Donna Rhodes,Rock
-13,13,Barbara Mitchel,Rock
-14,14,Cinda Holeman,Alternative
-15,15,Benjamin Dunston,Rock
-16,16,Thomas Miller,Rock
-17,17,Joseph Ham,Rock
-18,18,David Vella,Pop
-19,19,Douglas Shepherd,Pop
-20,20,Frank Hart,Pop
-21,21,Ian Brown,Rock
-22,22,Heidi Knecht,Metal
-23,23,Peter Pollard,Rock
-24,24,Thelma Vannest,Pop
-25,25,Adam Bento,Rock
-26,26,Mark Altamirano,Rock
-27,27,Anna Townsend,Pop
-28,28,Anthony Buck,Pop
-29,29,Matthew Boon,Pop
-30,30,Aaron White,Pop
-31,31,Kristina Wince,Rock
-32,32,Tyler Stuart,Rock
-33,33,Lloyd Allan,Rock
-34,34,Gloria Oneil,Alternative
-35,35,Dorothy Sandoval,Pop
-36,36,Liz Townes,Rock
-37,37,Michelle Favors,Metal
-38,38,Edwina Hargis,Rock
-39,39,William Knox,Alternative
-40,40,Jason Wallace,Rock
-41,41,Larry Booher,Alternative
-42,42,Cody Geis,Classical
-43,43,Monica Strickland,Alternative
-44,44,Nellie Winslow,Pop
-45,45,Troy Wires,Rock
-46,46,Tiffany Clark,Rock
-47,47,Ignacio Carter,Folk
-48,48,Rosaura Pace,Rock
-49,49,Lenora Caver,Rock
+,userID,user,genre_match,user_matches
+0,0,Ada Grossman,Classical,"['Charlie Hayes', 'Bruce Hyde', 'Michael Mcgee', 'Cody Geis']"
+1,1,Charlie Hayes,Classical,"['Ada Grossman', 'Bruce Hyde', 'Michael Mcgee', 'Cody Geis']"
+2,2,Timothy Mullins,Pop,"['Kelli Gauthier', 'Raymond Adami', 'David Vella', 'Douglas Shepherd', 'Frank Hart', 'Thelma Vannest', 'Anna Townsend', 'Anthony Buck', 'Matthew Boon', 'Aaron White', 'Dorothy Sandoval', 'Nellie Winslow']"
+3,3,Bruce Hyde,Classical,"['Ada Grossman', 'Charlie Hayes', 'Michael Mcgee', 'Cody Geis']"
+4,4,Kelli Gauthier,Pop,"['Timothy Mullins', 'Raymond Adami', 'David Vella', 'Douglas Shepherd', 'Frank Hart', 'Thelma Vannest', 'Anna Townsend', 'Anthony Buck', 'Matthew Boon', 'Aaron White', 'Dorothy Sandoval', 'Nellie Winslow']"
+5,5,Michael Mcgee,Classical,"['Ada Grossman', 'Charlie Hayes', 'Bruce Hyde', 'Cody Geis']"
+6,6,Kim Remington,Rock,"['John Beltran', 'Heather Roush', 'Jacqueline Felton', 'Donna Rhodes', 'Barbara Mitchel', 'Benjamin Dunston', 'Thomas Miller', 'Joseph Ham', 'Ian Brown', 'Peter Pollard', 'Adam Bento', 'Mark Altamirano', 'Kristina Wince', 'Tyler Stuart', 'Lloyd Allan', 'Liz Townes', 'Edwina Hargis', 'Jason Wallace', 'Troy Wires', 'Tiffany Clark', 'Rosaura Pace', 'Lenora Caver']"
+7,7,Irma Moon,Metal,"['Heidi Knecht', 'Michelle Favors']"
+8,8,John Beltran,Rock,"['Kim Remington', 'Heather Roush', 'Jacqueline Felton', 'Donna Rhodes', 'Barbara Mitchel', 'Benjamin Dunston', 'Thomas Miller', 'Joseph Ham', 'Ian Brown', 'Peter Pollard', 'Adam Bento', 'Mark Altamirano', 'Kristina Wince', 'Tyler Stuart', 'Lloyd Allan', 'Liz Townes', 'Edwina Hargis', 'Jason Wallace', 'Troy Wires', 'Tiffany Clark', 'Rosaura Pace', 'Lenora Caver']"
+9,9,Raymond Adami,Pop,"['Timothy Mullins', 'Kelli Gauthier', 'David Vella', 'Douglas Shepherd', 'Frank Hart', 'Thelma Vannest', 'Anna Townsend', 'Anthony Buck', 'Matthew Boon', 'Aaron White', 'Dorothy Sandoval', 'Nellie Winslow']"
+10,10,Heather Roush,Rock,"['Kim Remington', 'John Beltran', 'Jacqueline Felton', 'Donna Rhodes', 'Barbara Mitchel', 'Benjamin Dunston', 'Thomas Miller', 'Joseph Ham', 'Ian Brown', 'Peter Pollard', 'Adam Bento', 'Mark Altamirano', 'Kristina Wince', 'Tyler Stuart', 'Lloyd Allan', 'Liz Townes', 'Edwina Hargis', 'Jason Wallace', 'Troy Wires', 'Tiffany Clark', 'Rosaura Pace', 'Lenora Caver']"
+11,11,Jacqueline Felton,Rock,"['Kim Remington', 'John Beltran', 'Heather Roush', 'Donna Rhodes', 'Barbara Mitchel', 'Benjamin Dunston', 'Thomas Miller', 'Joseph Ham', 'Ian Brown', 'Peter Pollard', 'Adam Bento', 'Mark Altamirano', 'Kristina Wince', 'Tyler Stuart', 'Lloyd Allan', 'Liz Townes', 'Edwina Hargis', 'Jason Wallace', 'Troy Wires', 'Tiffany Clark', 'Rosaura Pace', 'Lenora Caver']"
+12,12,Donna Rhodes,Rock,"['Kim Remington', 'John Beltran', 'Heather Roush', 'Jacqueline Felton', 'Barbara Mitchel', 'Benjamin Dunston', 'Thomas Miller', 'Joseph Ham', 'Ian Brown', 'Peter Pollard', 'Adam Bento', 'Mark Altamirano', 'Kristina Wince', 'Tyler Stuart', 'Lloyd Allan', 'Liz Townes', 'Edwina Hargis', 'Jason Wallace', 'Troy Wires', 'Tiffany Clark', 'Rosaura Pace', 'Lenora Caver']"
+13,13,Barbara Mitchel,Rock,"['Kim Remington', 'John Beltran', 'Heather Roush', 'Jacqueline Felton', 'Donna Rhodes', 'Benjamin Dunston', 'Thomas Miller', 'Joseph Ham', 'Ian Brown', 'Peter Pollard', 'Adam Bento', 'Mark Altamirano', 'Kristina Wince', 'Tyler Stuart', 'Lloyd Allan', 'Liz Townes', 'Edwina Hargis', 'Jason Wallace', 'Troy Wires', 'Tiffany Clark', 'Rosaura Pace', 'Lenora Caver']"
+14,14,Cinda Holeman,Alternative,"['Gloria Oneil', 'William Knox', 'Larry Booher', 'Monica Strickland']"
+15,15,Benjamin Dunston,Rock,"['Kim Remington', 'John Beltran', 'Heather Roush', 'Jacqueline Felton', 'Donna Rhodes', 'Barbara Mitchel', 'Thomas Miller', 'Joseph Ham', 'Ian Brown', 'Peter Pollard', 'Adam Bento', 'Mark Altamirano', 'Kristina Wince', 'Tyler Stuart', 'Lloyd Allan', 'Liz Townes', 'Edwina Hargis', 'Jason Wallace', 'Troy Wires', 'Tiffany Clark', 'Rosaura Pace', 'Lenora Caver']"
+16,16,Thomas Miller,Rock,"['Kim Remington', 'John Beltran', 'Heather Roush', 'Jacqueline Felton', 'Donna Rhodes', 'Barbara Mitchel', 'Benjamin Dunston', 'Joseph Ham', 'Ian Brown', 'Peter Pollard', 'Adam Bento', 'Mark Altamirano', 'Kristina Wince', 'Tyler Stuart', 'Lloyd Allan', 'Liz Townes', 'Edwina Hargis', 'Jason Wallace', 'Troy Wires', 'Tiffany Clark', 'Rosaura Pace', 'Lenora Caver']"
+17,17,Joseph Ham,Rock,"['Kim Remington', 'John Beltran', 'Heather Roush', 'Jacqueline Felton', 'Donna Rhodes', 'Barbara Mitchel', 'Benjamin Dunston', 'Thomas Miller', 'Ian Brown', 'Peter Pollard', 'Adam Bento', 'Mark Altamirano', 'Kristina Wince', 'Tyler Stuart', 'Lloyd Allan', 'Liz Townes', 'Edwina Hargis', 'Jason Wallace', 'Troy Wires', 'Tiffany Clark', 'Rosaura Pace', 'Lenora Caver']"
+18,18,David Vella,Pop,"['Timothy Mullins', 'Kelli Gauthier', 'Raymond Adami', 'Douglas Shepherd', 'Frank Hart', 'Thelma Vannest', 'Anna Townsend', 'Anthony Buck', 'Matthew Boon', 'Aaron White', 'Dorothy Sandoval', 'Nellie Winslow']"
+19,19,Douglas Shepherd,Pop,"['Timothy Mullins', 'Kelli Gauthier', 'Raymond Adami', 'David Vella', 'Frank Hart', 'Thelma Vannest', 'Anna Townsend', 'Anthony Buck', 'Matthew Boon', 'Aaron White', 'Dorothy Sandoval', 'Nellie Winslow']"
+20,20,Frank Hart,Pop,"['Timothy Mullins', 'Kelli Gauthier', 'Raymond Adami', 'David Vella', 'Douglas Shepherd', 'Thelma Vannest', 'Anna Townsend', 'Anthony Buck', 'Matthew Boon', 'Aaron White', 'Dorothy Sandoval', 'Nellie Winslow']"
+21,21,Ian Brown,Rock,"['Kim Remington', 'John Beltran', 'Heather Roush', 'Jacqueline Felton', 'Donna Rhodes', 'Barbara Mitchel', 'Benjamin Dunston', 'Thomas Miller', 'Joseph Ham', 'Peter Pollard', 'Adam Bento', 'Mark Altamirano', 'Kristina Wince', 'Tyler Stuart', 'Lloyd Allan', 'Liz Townes', 'Edwina Hargis', 'Jason Wallace', 'Troy Wires', 'Tiffany Clark', 'Rosaura Pace', 'Lenora Caver']"
+22,22,Heidi Knecht,Metal,"['Irma Moon', 'Michelle Favors']"
+23,23,Peter Pollard,Rock,"['Kim Remington', 'John Beltran', 'Heather Roush', 'Jacqueline Felton', 'Donna Rhodes', 'Barbara Mitchel', 'Benjamin Dunston', 'Thomas Miller', 'Joseph Ham', 'Ian Brown', 'Adam Bento', 'Mark Altamirano', 'Kristina Wince', 'Tyler Stuart', 'Lloyd Allan', 'Liz Townes', 'Edwina Hargis', 'Jason Wallace', 'Troy Wires', 'Tiffany Clark', 'Rosaura Pace', 'Lenora Caver']"
+24,24,Thelma Vannest,Pop,"['Timothy Mullins', 'Kelli Gauthier', 'Raymond Adami', 'David Vella', 'Douglas Shepherd', 'Frank Hart', 'Anna Townsend', 'Anthony Buck', 'Matthew Boon', 'Aaron White', 'Dorothy Sandoval', 'Nellie Winslow']"
+25,25,Adam Bento,Rock,"['Kim Remington', 'John Beltran', 'Heather Roush', 'Jacqueline Felton', 'Donna Rhodes', 'Barbara Mitchel', 'Benjamin Dunston', 'Thomas Miller', 'Joseph Ham', 'Ian Brown', 'Peter Pollard', 'Mark Altamirano', 'Kristina Wince', 'Tyler Stuart', 'Lloyd Allan', 'Liz Townes', 'Edwina Hargis', 'Jason Wallace', 'Troy Wires', 'Tiffany Clark', 'Rosaura Pace', 'Lenora Caver']"
+26,26,Mark Altamirano,Rock,"['Kim Remington', 'John Beltran', 'Heather Roush', 'Jacqueline Felton', 'Donna Rhodes', 'Barbara Mitchel', 'Benjamin Dunston', 'Thomas Miller', 'Joseph Ham', 'Ian Brown', 'Peter Pollard', 'Adam Bento', 'Kristina Wince', 'Tyler Stuart', 'Lloyd Allan', 'Liz Townes', 'Edwina Hargis', 'Jason Wallace', 'Troy Wires', 'Tiffany Clark', 'Rosaura Pace', 'Lenora Caver']"
+27,27,Anna Townsend,Pop,"['Timothy Mullins', 'Kelli Gauthier', 'Raymond Adami', 'David Vella', 'Douglas Shepherd', 'Frank Hart', 'Thelma Vannest', 'Anthony Buck', 'Matthew Boon', 'Aaron White', 'Dorothy Sandoval', 'Nellie Winslow']"
+28,28,Anthony Buck,Pop,"['Timothy Mullins', 'Kelli Gauthier', 'Raymond Adami', 'David Vella', 'Douglas Shepherd', 'Frank Hart', 'Thelma Vannest', 'Anna Townsend', 'Matthew Boon', 'Aaron White', 'Dorothy Sandoval', 'Nellie Winslow']"
+29,29,Matthew Boon,Pop,"['Timothy Mullins', 'Kelli Gauthier', 'Raymond Adami', 'David Vella', 'Douglas Shepherd', 'Frank Hart', 'Thelma Vannest', 'Anna Townsend', 'Anthony Buck', 'Aaron White', 'Dorothy Sandoval', 'Nellie Winslow']"
+30,30,Aaron White,Pop,"['Timothy Mullins', 'Kelli Gauthier', 'Raymond Adami', 'David Vella', 'Douglas Shepherd', 'Frank Hart', 'Thelma Vannest', 'Anna Townsend', 'Anthony Buck', 'Matthew Boon', 'Dorothy Sandoval', 'Nellie Winslow']"
+31,31,Kristina Wince,Rock,"['Kim Remington', 'John Beltran', 'Heather Roush', 'Jacqueline Felton', 'Donna Rhodes', 'Barbara Mitchel', 'Benjamin Dunston', 'Thomas Miller', 'Joseph Ham', 'Ian Brown', 'Peter Pollard', 'Adam Bento', 'Mark Altamirano', 'Tyler Stuart', 'Lloyd Allan', 'Liz Townes', 'Edwina Hargis', 'Jason Wallace', 'Troy Wires', 'Tiffany Clark', 'Rosaura Pace', 'Lenora Caver']"
+32,32,Tyler Stuart,Rock,"['Kim Remington', 'John Beltran', 'Heather Roush', 'Jacqueline Felton', 'Donna Rhodes', 'Barbara Mitchel', 'Benjamin Dunston', 'Thomas Miller', 'Joseph Ham', 'Ian Brown', 'Peter Pollard', 'Adam Bento', 'Mark Altamirano', 'Kristina Wince', 'Lloyd Allan', 'Liz Townes', 'Edwina Hargis', 'Jason Wallace', 'Troy Wires', 'Tiffany Clark', 'Rosaura Pace', 'Lenora Caver']"
+33,33,Lloyd Allan,Rock,"['Kim Remington', 'John Beltran', 'Heather Roush', 'Jacqueline Felton', 'Donna Rhodes', 'Barbara Mitchel', 'Benjamin Dunston', 'Thomas Miller', 'Joseph Ham', 'Ian Brown', 'Peter Pollard', 'Adam Bento', 'Mark Altamirano', 'Kristina Wince', 'Tyler Stuart', 'Liz Townes', 'Edwina Hargis', 'Jason Wallace', 'Troy Wires', 'Tiffany Clark', 'Rosaura Pace', 'Lenora Caver']"
+34,34,Gloria Oneil,Alternative,"['Cinda Holeman', 'William Knox', 'Larry Booher', 'Monica Strickland']"
+35,35,Dorothy Sandoval,Pop,"['Timothy Mullins', 'Kelli Gauthier', 'Raymond Adami', 'David Vella', 'Douglas Shepherd', 'Frank Hart', 'Thelma Vannest', 'Anna Townsend', 'Anthony Buck', 'Matthew Boon', 'Aaron White', 'Nellie Winslow']"
+36,36,Liz Townes,Rock,"['Kim Remington', 'John Beltran', 'Heather Roush', 'Jacqueline Felton', 'Donna Rhodes', 'Barbara Mitchel', 'Benjamin Dunston', 'Thomas Miller', 'Joseph Ham', 'Ian Brown', 'Peter Pollard', 'Adam Bento', 'Mark Altamirano', 'Kristina Wince', 'Tyler Stuart', 'Lloyd Allan', 'Edwina Hargis', 'Jason Wallace', 'Troy Wires', 'Tiffany Clark', 'Rosaura Pace', 'Lenora Caver']"
+37,37,Michelle Favors,Metal,"['Irma Moon', 'Heidi Knecht']"
+38,38,Edwina Hargis,Rock,"['Kim Remington', 'John Beltran', 'Heather Roush', 'Jacqueline Felton', 'Donna Rhodes', 'Barbara Mitchel', 'Benjamin Dunston', 'Thomas Miller', 'Joseph Ham', 'Ian Brown', 'Peter Pollard', 'Adam Bento', 'Mark Altamirano', 'Kristina Wince', 'Tyler Stuart', 'Lloyd Allan', 'Liz Townes', 'Jason Wallace', 'Troy Wires', 'Tiffany Clark', 'Rosaura Pace', 'Lenora Caver']"
+39,39,William Knox,Alternative,"['Cinda Holeman', 'Gloria Oneil', 'Larry Booher', 'Monica Strickland']"
+40,40,Jason Wallace,Rock,"['Kim Remington', 'John Beltran', 'Heather Roush', 'Jacqueline Felton', 'Donna Rhodes', 'Barbara Mitchel', 'Benjamin Dunston', 'Thomas Miller', 'Joseph Ham', 'Ian Brown', 'Peter Pollard', 'Adam Bento', 'Mark Altamirano', 'Kristina Wince', 'Tyler Stuart', 'Lloyd Allan', 'Liz Townes', 'Edwina Hargis', 'Troy Wires', 'Tiffany Clark', 'Rosaura Pace', 'Lenora Caver']"
+41,41,Larry Booher,Alternative,"['Cinda Holeman', 'Gloria Oneil', 'William Knox', 'Monica Strickland']"
+42,42,Cody Geis,Classical,"['Ada Grossman', 'Charlie Hayes', 'Bruce Hyde', 'Michael Mcgee']"
+43,43,Monica Strickland,Alternative,"['Cinda Holeman', 'Gloria Oneil', 'William Knox', 'Larry Booher']"
+44,44,Nellie Winslow,Pop,"['Timothy Mullins', 'Kelli Gauthier', 'Raymond Adami', 'David Vella', 'Douglas Shepherd', 'Frank Hart', 'Thelma Vannest', 'Anna Townsend', 'Anthony Buck', 'Matthew Boon', 'Aaron White', 'Dorothy Sandoval']"
+45,45,Troy Wires,Rock,"['Kim Remington', 'John Beltran', 'Heather Roush', 'Jacqueline Felton', 'Donna Rhodes', 'Barbara Mitchel', 'Benjamin Dunston', 'Thomas Miller', 'Joseph Ham', 'Ian Brown', 'Peter Pollard', 'Adam Bento', 'Mark Altamirano', 'Kristina Wince', 'Tyler Stuart', 'Lloyd Allan', 'Liz Townes', 'Edwina Hargis', 'Jason Wallace', 'Tiffany Clark', 'Rosaura Pace', 'Lenora Caver']"
+46,46,Tiffany Clark,Rock,"['Kim Remington', 'John Beltran', 'Heather Roush', 'Jacqueline Felton', 'Donna Rhodes', 'Barbara Mitchel', 'Benjamin Dunston', 'Thomas Miller', 'Joseph Ham', 'Ian Brown', 'Peter Pollard', 'Adam Bento', 'Mark Altamirano', 'Kristina Wince', 'Tyler Stuart', 'Lloyd Allan', 'Liz Townes', 'Edwina Hargis', 'Jason Wallace', 'Troy Wires', 'Rosaura Pace', 'Lenora Caver']"
+47,47,Ignacio Carter,Folk,[]
+48,48,Rosaura Pace,Rock,"['Kim Remington', 'John Beltran', 'Heather Roush', 'Jacqueline Felton', 'Donna Rhodes', 'Barbara Mitchel', 'Benjamin Dunston', 'Thomas Miller', 'Joseph Ham', 'Ian Brown', 'Peter Pollard', 'Adam Bento', 'Mark Altamirano', 'Kristina Wince', 'Tyler Stuart', 'Lloyd Allan', 'Liz Townes', 'Edwina Hargis', 'Jason Wallace', 'Troy Wires', 'Tiffany Clark', 'Lenora Caver']"
+49,49,Lenora Caver,Rock,"['Kim Remington', 'John Beltran', 'Heather Roush', 'Jacqueline Felton', 'Donna Rhodes', 'Barbara Mitchel', 'Benjamin Dunston', 'Thomas Miller', 'Joseph Ham', 'Ian Brown', 'Peter Pollard', 'Adam Bento', 'Mark Altamirano', 'Kristina Wince', 'Tyler Stuart', 'Lloyd Allan', 'Liz Townes', 'Edwina Hargis', 'Jason Wallace', 'Troy Wires', 'Tiffany Clark', 'Rosaura Pace']"
