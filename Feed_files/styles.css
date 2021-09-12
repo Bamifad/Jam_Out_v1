@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #efefef;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #00040a;
+    padding: 5px 5%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.nav-left, .nav-right{
+    display: flex;
+    align-items: center;
+}
+
+.nav-left ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-left ul li img{
+    width: 28px;
+    margin: 0 15px;
+}
+
+.nav-user-icon{
+    margin-left: 30px;
+}
+
+.nav-user-icon img{
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.logo{
+    width: 100px;
+    margin-right: 45px;
+}
+
+.search-box{
+    background: #efefef;
+    width: 350px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.search-box img{
+    width: 18px;
+}
+
+.search-box input{
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;    
+}
+
+.online{
+    position: relative;
+}
+
+.online::after{
+    content: '';
+    width: 7px;
+    height: 7px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: #41db51;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 5%;
+    padding-top: 50px;
+}
+/* 
+.container::before{
+    background-image: url('https://www.guitarexcellence.co.za/wp-content/uploads/2012/11/life-Y-Luv-nathan1.jpg');
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    max-width: 100%;
+    height: auto;
+} */
+
+.left-sidebar{
+    /* background: #cfd4da; */
+    padding-top: 20px;
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+
+}
+
+.right-sidebar{
+    background: #cfd4da;
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    padding: 20px;
+    border-radius: 4px;
+    color: #0c0707;
+}
+
+.main-content{
+    flex-basis: 47%;
+}
+
+.wrap{
+  opacity: 0.4;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+.imp-links a, .shortcut-links a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    color: #0a0808;
+    width: fit-content;
+    padding-top: 4px;
+}
+
+.imp-links a:last-child{
+    color: #00040a;
+}
+
+.shortcut-links p{
+    padding-top: 4px;
+}
+
+.imp-links a img, .shortcut-links a img{
+    width: 25px;
+    margin-right: 15;
+}
+
+.imp-links{
+    border-bottom: 1px solid #00040a;
+}
+
+.sidebar-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.sidebar-title h4{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.sidebar-title a{
+    text-decoration: none;
+    color: #05070a;
+    font-size: 12;
+}
+
+.groups{
+    display: flex;
+    font-size: 14px;
+    margin-bottom: 20px;
+    /* border-bottom: 1px solid #00040a; */
+}
+
+.left-groups{
+    border-radius: 10px;
+    height: 65px;
+    width: 80px;
+    margin-right: 15px;
+    padding-top: 10px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.groups p{
+    font-size: 12px;
+}
+
+.groups a{
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.left-groups span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #05070a;
+    color: #fff;
+    font-size: 10px;
+    padding: 4px 0;
+}
+
+.right-groups a{
+    color: #00040a;
+}
+
+.left-profile img{
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.profile-rec{
+    display: flex;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.profile-rec p{
+    font-size: 12px;
+}
+
+.profile-rec a{
+    color:#00040a;
+    text-decoration: none;
+}
+
+.right-profile{
+    padding: 4px;
+}
+
+.online-rec{
+    position: relative;
+}
+
+.online-rec::after{
+    content: '';
+    width: 7px;
+    height: 7px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: #41db51;
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+
