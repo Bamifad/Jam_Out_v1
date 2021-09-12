@@ -13,8 +13,7 @@ sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 
 sp.trace=False 
-
-playlist = sp.user_playlist("frequencine", "7KMtxb9kh3TtVvJTdLtJ2K") 
+playlist = sp.user_playlist("MAX", "2LOxEzC4KmoWJ9NhW0kz5M") 
 songs = playlist["tracks"]["items"] 
 ids = []
 names = []
@@ -28,26 +27,64 @@ for i in range(len(songs)):
     artistID.append(songs[i]["track"]["artists"][0]["id"]) 
 
 features = sp.audio_features(ids) 
+gb = []
 for i in ((artistID)):
     genreList = sp.artist(i)["genres"]
+    gb.append( genreList)
     appended = False
     for i in genreList:
         if(appended):
             break
-        if('metal' in (i)):
+        if('christian' in (i)):
+            genres.append("Christian")
+            appended = True
+            break
+        elif( 'folk' in (i)):
+            genres.append("Folk")
+            appended = True
+            break
+        elif( 'soul' in (i)):
+            genres.append("Soul")
+            appended = True
+            break
+        elif( 'metal' in (i)):
             genres.append("Metal")
             appended = True
             break
-        elif('reggae' in (i)):
-            genres.append("Reggae")
+        elif( 'blues' in (i)):
+            genres.append("Blues")
+            appended = True
+            break
+        elif('jazz' in (i)):
+            genres.append("Jazz")
+            appended = True
+            break
+        elif( 'electronic' in (i)):
+            genres.append("Electronic")
+            appended = True
+            break
+        elif( 'country' in (i)):
+            genres.append("Country")
+            appended = True
+            break
+        elif( 'alternative' in (i)):
+            genres.append("Alternative")
+            appended = True
+            break
+        elif( 'rap' in (i)):
+            genres.append("Rap")
             appended = True
             break
         elif( 'rock' in (i)):
             genres.append("Rock")
             appended = True
             break
+        elif( 'pop' in (i)):
+            genres.append("Pop")
+            appended = True
+            break
     if(appended == False):
-        genres.append("idk man")
+        genres.append("Pop")
     appended = False
         
 
@@ -58,6 +95,7 @@ df = pd.DataFrame(features)
 df["Song Name"] = names
 df["Artist"] = artist
 df["Genres"] = genres
+df["gb"] = gb
 df.to_csv("spotify_music.csv")
 
 
