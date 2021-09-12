@@ -7,11 +7,48 @@
     <title>chat app - Bootdey.com</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<script src="./chat_files/jquery-1.10.2.min.js.download"></script>
-    <link href="./chat_files/bootstrap.min.css" rel="stylesheet">
-	<script src="./chat_files/bootstrap.bundle.min.js.download"></script>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
+	<link href="./css/font-awesome.min.css" rel="stylesheet">
+    <script src="./chat_files/bootstrap.bundle.min.js.download"></script>
+
+    <nav id="topNav" class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#first"><i class="ion-ios-analytics-outline"></i> Jam Jam </a>
+            </div>
+            <div class="navbar-collapse collapse" id="bs-navbar">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a class="page-scroll" href="#first">Home</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#two">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#three">Sign In</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#four">Connect</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#last">Venue</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                </ul>
+            </div>
+        </div>
+    </nav>
 </head>
 <body style="">
-<link href="./chat_files/font-awesome.min.css" rel="stylesheet">
+
 
 <div class="container">
 <div class="row clearfix">
@@ -128,11 +165,11 @@
 
 <style type="text/css">
 body{
-    background-color: #f4f7f6;
+    background-color: #000;
     margin-top:20px;
 }
 .card {
-    background: #fff;
+    background: #808080;
     transition: .5s;
     border: 0;
     margin-bottom: 30px;
@@ -152,7 +189,7 @@ body{
 
 .chat-app .chat {
     margin-left: 280px;
-    border-left: 1px solid #eaeaea
+    border-left: 1px solid #515151
 }
 
 .people-list {
@@ -166,15 +203,16 @@ body{
     padding: 10px 15px;
     list-style: none;
     border-radius: 3px
+    
 }
 
 .people-list .chat-list li:hover {
-    background: #efefef;
+    background: #515151;
     cursor: pointer
 }
 
 .people-list .chat-list li.active {
-    background: #efefef
+    background: #343434
 }
 
 .people-list .chat-list li .name {
@@ -203,7 +241,7 @@ body{
 
 .chat .chat-header {
     padding: 15px 20px;
-    border-bottom: 2px solid #f4f7f6
+    border-bottom: 2px solid #515151
 }
 
 .chat .chat-header img {
